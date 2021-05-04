@@ -372,7 +372,7 @@ plt_result(xs, ys_true, ys)
 ys_true: (100,)
 ys: (100,)
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_5_1.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_5_1.png" alt="png"></p>
 <h5 id="学習">学習</h5>
 <p>１次関数<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">y(x) = a x + b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">a</span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>における、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span>と<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>を求める。</p>
 <p>訓練データ</p>
@@ -476,7 +476,7 @@ plt.plot(xs_new, ys_pred, label=<span class="hljs-string">&quot;prediction (a={:
 plt.legend()
 plt.show()
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_12_0.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_12_0.png" alt="png"></p>
 <h5 id="多項式回帰">多項式回帰</h5>
 <h6 id="線型回帰訓練データ生成">線型回帰.訓練データ生成</h6>
 <pre><code class="language-python"><div>n_sample = <span class="hljs-number">10</span>
@@ -509,7 +509,7 @@ plt_result(xs, ys_true, ys)
 ys_true: (10,)
 ys: (10,)
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_16_1.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_16_1.png" alt="png"></p>
 <h5 id="線型回帰学習">線型回帰.学習</h5>
 <p>モデルとして以下を用いる。</p>
 <p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><msubsup><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>0</mn></mrow><mi>d</mi></msubsup><msub><mi>w</mi><mi>i</mi></msub><msup><mi>x</mi><mi>i</mi></msup><mo>=</mo><msup><mi mathvariant="bold-italic">w</mi><mi mathvariant="normal">T</mi></msup><mi><mrow><mi mathvariant="bold-italic">ϕ</mi><mo stretchy="false">(</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">)</mo></mrow></mi></mrow><annotation encoding="application/x-tex">y(x) = \sum_{i=0}^{d} w_{i} x^{i} = \boldsymbol{w}^{\mathrm{T}} \boldsymbol{\phi(x)}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.2887179999999998em;vertical-align:-0.29971000000000003em;"></span><span class="mop"><span class="mop op-symbol small-op" style="position:relative;top:-0.0000050000000000050004em;">∑</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9890079999999999em;"><span style="top:-2.40029em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span><span style="top:-3.2029em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">d</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.29971000000000003em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.02691em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.824664em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.0913309999999998em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord boldsymbol">ϕ</span><span class="mopen mathbf">(</span><span class="mord boldsymbol">x</span><span class="mclose mathbf">)</span></span></span></span></span></span></p>
@@ -555,7 +555,7 @@ plt.plot(xs, ys_pred, label=<span class="hljs-string">&quot;prediction&quot;</sp
 plt.legend()
 plt.show()
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_24_0.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0npoutput_24_0.png" alt="png"></p>
 <h4 id="重回帰分析">重回帰分析</h4>
 <h5 id="訓練データ生成-3次元入力">訓練データ生成 (3次元入力)</h5>
 <pre><code class="language-python"><div>np.random.random((<span class="hljs-number">10</span>, <span class="hljs-number">3</span>))
@@ -1779,7 +1779,7 @@ sns.pairplot(df2)
 </div></code></pre>
 <pre><code>&lt;seaborn.axisgrid.PairGrid at 0x2a4cedc7280&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_31_1.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_31_1.png" alt="png"></p>
 <h1>モデルの検証</h1>
 <h3>1. 決定係数</h3>
 <h3 id="線型回帰決定係数">線型回帰.決定係数</h3>
@@ -1817,7 +1817,7 @@ plt.hlines(y = <span class="hljs-number">0</span>, xmin = <span class="hljs-numb
 plt.xlim([<span class="hljs-number">10</span>, <span class="hljs-number">50</span>])
 plt.show()
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_37_0.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_37_0.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># 平均二乗誤差を評価するためのメソッドを呼び出し</span>
 <span class="hljs-keyword">from</span> sklearn.metrics <span class="hljs-keyword">import</span> mean_squared_error
 <span class="hljs-comment"># 学習用、検証用データに関して平均二乗誤差を出力</span>
@@ -1957,7 +1957,7 @@ sns.pairplot(df3)
 </div></code></pre>
 <pre><code>&lt;seaborn.axisgrid.PairGrid at 0x2a4d0610be0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_44_1.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_44_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># 70%を学習用、30%を検証用データにするよう分割</span>
 X_train, X_test, y_train, y_test = train_test_split(data3, target3, 
 test_size = <span class="hljs-number">0.3</span>, random_state = <span class="hljs-number">666</span>)
@@ -1983,7 +1983,7 @@ plt.hlines(y = <span class="hljs-number">0</span>, xmin = <span class="hljs-numb
 plt.xlim([<span class="hljs-number">10</span>, <span class="hljs-number">50</span>])
 plt.show()
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_45_0.png" alt="png"></p>
+<p><img src="./img/%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0skloutput_45_0.png" alt="png"></p>
 <h2 id="3非線形回帰モデル">3.非線形回帰モデル</h2>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><msub><mi>w</mi><mn>0</mn></msub><mo>+</mo><msub><mi>w</mi><mn>1</mn></msub><mi>sin</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>x</mi><mn>1</mn></msub><mo stretchy="false">)</mo><mo>+</mo><msub><mi>w</mi><mn>2</mn></msub><mi>cos</mi><mo>⁡</mo><mo stretchy="false">(</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy="false">)</mo><mo>+</mo><msub><mi>w</mi><mn>3</mn></msub><msub><mo><mi>log</mi><mo>⁡</mo></mo><mn>2</mn></msub><mo stretchy="false">(</mo><msub><mi>x</mi><mn>3</mn></msub><mo stretchy="false">)</mo><mo>+</mo><mo>⋯</mo><mspace linebreak="newline"></mspace><mi>x</mi><mtext>の代わりに</mtext><mi>ϕ</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo separator="true">,</mo><mtext>つまり</mtext><mi>x</mi><mtext>の関数を用いる</mtext><mo stretchy="false">(</mo><mtext>基底関数</mtext><mo stretchy="false">)</mo><mspace linebreak="newline"></mspace><mtext>※</mtext><mi>x</mi><mtext>が</mtext><mi>ϕ</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mtext>に変わっても、</mtext><mi>w</mi><mtext>は線形のまま変わらない</mtext><mspace linebreak="newline"></mspace><mrow><mo fence="true">(</mo><mtable rowspacing="0.15999999999999992em" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>⋯</mo><mi>x</mi><mtext>についての二次関数</mtext></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>a</mi><mo stretchy="false">)</mo><mo>=</mo><mi>a</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>b</mi><mi>x</mi><mo>+</mo><mi>c</mi><mo>⋯</mo><mi>a</mi><mtext>についての一次関数</mtext></mrow></mstyle></mtd></mtr></mtable><mo fence="true">)</mo></mrow><mspace linebreak="newline"></mspace><mtext>予測</mtext><mi>m</mi><mi>o</mi><mi>d</mi><mi>e</mi><mi>l</mi><mo>:</mo><mover accent="true"><mi>y</mi><mo>^</mo></mover><mo>=</mo><msub><mi>w</mi><mn>0</mn></msub><mo>+</mo><msub><mi>w</mi><mn>1</mn></msub><msub><mi>ϕ</mi><mn>1</mn></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>+</mo><msub><mi>w</mi><mn>2</mn></msub><msub><mi>ϕ</mi><mn>2</mn></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mo>+</mo><mo>⋯</mo><msub><mi>w</mi><mi>m</mi></msub><msub><mi>ϕ</mi><mi>m</mi></msub><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo><mspace linebreak="newline"></mspace><mo>⇊</mo><mspace linebreak="newline"></mspace><mtext>重み</mtext><mi>w</mi><mtext>については線形（線形回帰）</mtext><mo stretchy="false">(</mo><mi>l</mi><mi>i</mi><mi>n</mi><mi>e</mi><mi>a</mi><mi>r</mi><mo>−</mo><mi>i</mi><mi>n</mi><mo>−</mo><mi>p</mi><mi>a</mi><mi>r</mi><mi>a</mi><mi>m</mi><mi>e</mi><mi>t</mi><mi>e</mi><mi>r</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">y={w_0}+{w_1}\sin({x_1})+{w_2}\cos({x_2})+{w_3}{\log_2}({x_3})+\cdots\\
 xの代わりに\phi (x),つまりxの関数を用いる(基底関数) \\
@@ -2163,7 +2163,7 @@ plt.legend(loc=<span class="hljs-number">2</span>)
 
 &lt;matplotlib.legend.Legend at 0x1b4cb17b400&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_4_2.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_4_2.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.linear_model <span class="hljs-keyword">import</span> LinearRegression
 <span class="hljs-comment"># 線型回帰モデルのインスタンス生成</span>
 clf = LinearRegression()
@@ -2190,7 +2190,7 @@ print(<span class="hljs-string">&quot;切片(w0):&quot;</span>,clf.intercept_)
 回帰係数(w1): [[1.5908028]]
 切片(w0): [-0.71327674]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_5_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_5_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.kernel_ridge <span class="hljs-keyword">import</span> KernelRidge
 <span class="hljs-comment"># カーネルリッジ回帰を用いて学習</span>
 clf = KernelRidge(alpha=<span class="hljs-number">0.0002</span>, kernel=<span class="hljs-string">&#x27;rbf&#x27;</span>)
@@ -2213,7 +2213,7 @@ print(<span class="hljs-string">&quot;パラメータ:&quot;</span>,clf.get_para
 <pre><code>精度: 0.7913581736844
 パラメータ: {'alpha': 0.0002, 'coef0': 1, 'degree': 3, 'gamma': None, 'kernel': 'rbf', 'kernel_params': None}
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_6_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_6_1.png" alt="png"></p>
 <h5 id="学習精度は079曲線も滑らかに描かれている">学習精度は0.79、曲線も滑らかに描かれている</h5>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.metrics.pairwise <span class="hljs-keyword">import</span> rbf_kernel
 <span class="hljs-keyword">from</span> sklearn.linear_model <span class="hljs-keyword">import</span> Ridge
@@ -2241,7 +2241,7 @@ print(<span class="hljs-string">&quot;パラメータ:&quot;</span>,clf.get_para
 <pre><code>精度: 0.8181392692268067
 パラメータ: {'copy_X': True, 'fit_intercept': True, 'n_jobs': None, 'normalize': False, 'positive': False}
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_8_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_8_1.png" alt="png"></p>
 <h5 id="学習精度は高くなったが曲線がいびつでやや過学習気味l2ノルムによる正則化を実施">学習精度は高くなったが、曲線がいびつでやや過学習気味、↓L2ノルムによる正則化を実施</h5>
 <pre><code class="language-python"><div><span class="hljs-comment">#L2ノルムによる正則化を実施</span>
 
@@ -2272,7 +2272,7 @@ print(<span class="hljs-string">&quot;パラメータ:&quot;</span>,clf.get_para
 <pre><code>学習精度: 0.73776698061341
 パラメータ: {'alpha': 30, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'normalize': False, 'random_state': None, 'solver': 'auto', 'tol': 0.001}
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_10_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_10_1.png" alt="png"></p>
 <h5 id="正則化により学習精度は下がったものの回帰曲線は滑らかになり汎化性能は向上">正則化により学習精度は下がったものの、回帰曲線は滑らかになり汎化性能は向上</h5>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.preprocessing <span class="hljs-keyword">import</span> PolynomialFeatures
 <span class="hljs-keyword">from</span> sklearn.pipeline <span class="hljs-keyword">import</span> Pipeline
@@ -2292,7 +2292,7 @@ deg = [<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<sp
     plt.scatter(data, target, label=<span class="hljs-string">&#x27;data&#x27;</span>)
     plt.plot(data, p_poly, label=<span class="hljs-string">&#x27;polynomial of degree %d&#x27;</span> % (d))
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_13_0.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_13_0.png" alt="png"></p>
 <h5 id="1次4次までは回帰曲線に変化が見られるものの4次以降はほとんど変化が見られない">1次～4次までは回帰曲線に変化が見られるものの4次以降はほとんど変化が見られない</h5>
 <h5 id="元々準備した訓練データが4次の多項式であり4次で十分表現できる">元々準備した訓練データが4次の多項式であり4次で十分表現できる</h5>
 <pre><code class="language-python"><div><span class="hljs-comment"># L1ノルムを用いた正則化実施</span>
@@ -2322,7 +2322,7 @@ print(<span class="hljs-string">&quot;パラメータ:&quot;</span>,lasso_clf.ge
 <pre><code>学習精度: -2.220446049250313e-16
 パラメータ: {'alpha': 1, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_15_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_15_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># L1ノルムで正則化 （ただし正則化パラメータは0.001)</span>
 lasso_clf = Lasso(alpha=<span class="hljs-number">0.001</span>, max_iter=<span class="hljs-number">1000</span>)
 lasso_clf.fit(kx, target)
@@ -2344,7 +2344,7 @@ print(<span class="hljs-string">&quot;パラメータ:&quot;</span>,lasso_clf.ge
 学習精度: 0.7851734733874406
 パラメータ: {'alpha': 0.001, 'copy_X': True, 'fit_intercept': True, 'max_iter': 1000, 'normalize': False, 'positive': False, 'precompute': False, 'random_state': None, 'selection': 'cyclic', 'tol': 0.0001, 'warm_start': False}
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_16_2.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_16_2.png" alt="png"></p>
 <h5 id="上記のl1ノルムで正則化した例正則化パラメータの違い">上記のL1ノルムで正則化した例:正則化パラメータの違い</h5>
 <h5 id="正則化パラメータを大きくしすぎると回帰曲線で導き出した結果が相対的に小さくなり未学習に近い状態となるので注意">正則化パラメータを大きくしすぎると回帰曲線で導き出した結果が相対的に小さくなり未学習に近い状態となるので注意</h5>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn <span class="hljs-keyword">import</span> model_selection, preprocessing, linear_model, svm
@@ -2367,7 +2367,7 @@ print(<span class="hljs-string">&quot;精度:&quot;</span>,clf_svr.score(data, t
 c:\users\学\appdata\local\programs\python\python39\lib\site-packages\sklearn\utils\validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
   return f(*args, **kwargs)
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_18_1.png" alt="png"></p>
+<p><img src="./img/%E9%9D%9E%E7%B7%9A%E5%9E%8B%E5%9B%9E%E5%B8%B0output_18_1.png" alt="png"></p>
 <pre><code>精度: 0.797859510708556
 </code></pre>
 <h2 id="4ロジスティック回帰モデル">4.ロジスティック回帰モデル</h2>
@@ -2595,7 +2595,7 @@ x_train, y_train = gen_data(n_sample, harf_n_sample)
 <span class="hljs-comment">#データ表示</span>
 plt_data(x_train, y_train)
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_4_0.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_4_0.png" alt="png"></p>
 <h2 id="ロジスティック回帰モデル">ロジスティック回帰モデル</h2>
 <p>識別モデルとして<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo stretchy="false">(</mo><mi>y</mi><mo>=</mo><mn>1</mn><mi mathvariant="normal">∣</mi><mi mathvariant="bold-italic">x</mi><mo separator="true">;</mo><mi mathvariant="bold-italic">w</mi><mo stretchy="false">)</mo><mo>=</mo><mi>σ</mi><mo stretchy="false">(</mo><msup><mi mathvariant="bold-italic">w</mi><mi mathvariant="normal">T</mi></msup><mi mathvariant="bold-italic">x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">p(y=1 | \boldsymbol{x}; \boldsymbol{w}) = \sigma (\boldsymbol{w}^{\mathrm{T}} \boldsymbol{x})</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord">∣</span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mpunct">;</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.0913309999999998em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mclose">)</span></span></span></span>を用いる。</p>
 <p>ただし、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo stretchy="false">(</mo><mo>⋅</mo><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\sigma(\cdot)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span><span class="mopen">(</span><span class="mord">⋅</span><span class="mclose">)</span></span></span></span>はシグモイド関数であり、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>σ</mi><mo stretchy="false">(</mo><mi>h</mi><mo stretchy="false">)</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mi>exp</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mo>−</mo><mi>h</mi><mo stretchy="false">)</mo></mrow></mrow></mfrac></mrow><annotation encoding="application/x-tex">\sigma(h) = \frac{1}{1 + \exp{(-h)}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">σ</span><span class="mopen">(</span><span class="mord mathdefault">h</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.365108em;vertical-align:-0.52em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mbin mtight">+</span><span class="mop mtight"><span class="mtight">e</span><span class="mtight">x</span><span class="mtight">p</span></span><span class="mspace mtight" style="margin-right:0.19516666666666668em;"></span><span class="mord mtight"><span class="mopen mtight">(</span><span class="mord mtight">−</span><span class="mord mathdefault mtight">h</span><span class="mclose mtight">)</span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.52em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span>で定義される。</p>
@@ -2677,7 +2677,7 @@ plt.contourf(xx0, xx1, proba.reshape(<span class="hljs-number">100</span>, <span
 </div></code></pre>
 <pre><code>&lt;matplotlib.contour.QuadContourSet at 0x227980866d0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_15_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_15_1.png" alt="png"></p>
 <h3 id="ここから下はsklearnを用いたロジスティック回帰の実装">ここから下はsklearnを用いたロジスティック回帰の実装</h3>
 <pre><code class="language-python"><div><span class="hljs-comment"># sklearn実装</span>
 <span class="hljs-keyword">from</span> sklearn.linear_model <span class="hljs-keyword">import</span> LogisticRegression
@@ -2696,7 +2696,7 @@ plt.contourf(xx0, xx1, proba[:, <span class="hljs-number">0</span>].reshape(<spa
 </div></code></pre>
 <pre><code>&lt;matplotlib.contour.QuadContourSet at 0x2279f543160&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_17_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0npoutput_17_1.png" alt="png"></p>
 <h1>0. データ表示</h1>
 <pre><code class="language-python"><div><span class="hljs-comment">#from モジュール名 import クラス名（もしくは関数名や変数名）</span>
 <span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
@@ -3564,7 +3564,7 @@ plt.plot(x_range, sigmoid(x_range), <span class="hljs-string">&#x27;-&#x27;</spa
 
 [&lt;matplotlib.lines.Line2D at 0x28a6b1d5610&gt;]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_20_2.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_20_2.png" alt="png"></p>
 <h1>1. ロジスティック回帰</h1>
 <h3>実装(2変数から生死を判別)</h3>
 <pre><code class="language-python"><div><span class="hljs-comment">#AgeFillの欠損値を埋めたので</span>
@@ -3871,7 +3871,7 @@ plt.plot([<span class="hljs-number">0</span>,<span class="hljs-number">80</span>
 </div></code></pre>
 <pre><code>[&lt;matplotlib.lines.Line2D at 0x28a6b387c10&gt;]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_29_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_29_1.png" alt="png"></p>
 <pre><code class="language-python"><div>np.random.seed = <span class="hljs-number">0</span>
 
 xmin, xmax = <span class="hljs-number">-5</span>, <span class="hljs-number">85</span>
@@ -3901,7 +3901,7 @@ ax.legend(bbox_to_anchor=(<span class="hljs-number">1.4</span>, <span class="hlj
 </div></code></pre>
 <pre><code>&lt;matplotlib.legend.Legend at 0x28a6b70ab80&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_30_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_30_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment">#年齢と客室＋性別だけのリストを作成</span>
 data2 = titanic_df.loc[:, [<span class="hljs-string">&quot;AgeFill&quot;</span>, <span class="hljs-string">&quot;Pclass_Gender&quot;</span>]].values
 </div></code></pre>
@@ -4074,7 +4074,7 @@ ax.plot([x1, x2] ,[y1, y2], <span class="hljs-string">&#x27;k--&#x27;</span>)
 </div></code></pre>
 <pre><code>[&lt;matplotlib.lines.Line2D at 0x28a6b2d7070&gt;]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_39_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_39_1.png" alt="png"></p>
 <h1>2. モデル評価</h1>
 <h3>混同行列とクロスバリデーション</h3>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.model_selection <span class="hljs-keyword">import</span> train_test_split
@@ -4269,7 +4269,7 @@ sns.heatmap(
 </div></code></pre>
 <pre><code>&lt;AxesSubplot:&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_55_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_55_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># 混合行列をヒートマップで表示</span>
 fig = plt.figure(figsize = (<span class="hljs-number">7</span>,<span class="hljs-number">7</span>))
 <span class="hljs-comment">#plt.title(title)</span>
@@ -4294,7 +4294,7 @@ sns.heatmap(
 </div></code></pre>
 <pre><code>&lt;AxesSubplot:&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_56_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_56_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment">#Paired categorical plots</span>
 
 <span class="hljs-keyword">import</span> seaborn <span class="hljs-keyword">as</span> sns
@@ -4318,7 +4318,7 @@ plt.show()
 <pre><code>c:\users\学\appdata\local\programs\python\python39\lib\site-packages\seaborn\axisgrid.py:1152: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
   warnings.warn(UserWarning(msg))
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_57_1.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_57_1.png" alt="png"></p>
 <h5 id="各主成分ごとの分類結果を表示">各主成分ごとの分類結果を表示</h5>
 <pre><code>客室：グレードの高い客室に宿泊した人の方が生存率が高い
 性別：女性の方が生存率高い
@@ -4343,7 +4343,7 @@ g = sns.lmplot(x=<span class="hljs-string">&quot;age&quot;</span>, y=<span class
 g.set(xlim=(<span class="hljs-number">0</span>, <span class="hljs-number">80</span>), ylim=(<span class="hljs-number">-.05</span>, <span class="hljs-number">1.05</span>))
 plt.show()
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_59_0.png" alt="png"></p>
+<p><img src="./img/%E3%83%AD%E3%82%B8%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%9B%9E%E5%B8%B0output_59_0.png" alt="png"></p>
 <p>男性は年齢が上がるとともに生存確率が低くなる傾向にあるが、女性は逆に生存率が高くなっている。</p>
 <h2 id="5主成分分析">5.主成分分析</h2>
 <pre><code>主成分分析：PCAと呼ばれる
@@ -4443,7 +4443,7 @@ V_{total}:元データの分散の和\\
 <pre><code class="language-python"><div>X = gen_data(n_sample)
 plt_data(X)
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_4_0.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_4_0.png" alt="png"></p>
 <h4 id="主成分分析学習">主成分分析.学習</h4>
 <p>訓練データ<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi><mo>=</mo><mo stretchy="false">[</mo><msub><mi mathvariant="bold-italic">x</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi mathvariant="bold-italic">x</mi><mn>2</mn></msub><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mo separator="true">,</mo><msub><mi mathvariant="bold-italic">x</mi><mi>n</mi></msub><msup><mo stretchy="false">]</mo><mi mathvariant="normal">T</mi></msup></mrow><annotation encoding="application/x-tex">X = [\boldsymbol{x}_{1}, \boldsymbol{x}_{2}, ..., \boldsymbol{x}_{n}]^{\mathrm{T}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.0913309999999998em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">.</span><span class="mord">.</span><span class="mord">.</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose"><span class="mclose">]</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span></span></span></span>に対して<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="double-struck">E</mi><mo stretchy="false">[</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">]</mo><mo>=</mo><mi mathvariant="bold-italic">0</mi></mrow><annotation encoding="application/x-tex">\mathbb{E}[\boldsymbol{x}] = \boldsymbol{0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathbb">E</span></span><span class="mopen">[</span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord mathbf">0</span></span></span></span></span></span>となるように変換する。</p>
 <p>すると、不偏共分散行列は<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi><mi>a</mi><mi>r</mi><mo stretchy="false">[</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">]</mo><mo>=</mo><mfrac><mn>1</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></mfrac><msup><mi>X</mi><mi mathvariant="normal">T</mi></msup><mi>X</mi></mrow><annotation encoding="application/x-tex">Var[\boldsymbol{x}] = \frac{1}{n-1} X^{\mathrm{T}}X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.22222em;">V</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mopen">[</span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mclose">]</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.2484389999999999em;vertical-align:-0.403331em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.845108em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">n</span><span class="mbin mtight">−</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.403331em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span></span>と書ける。</p>
@@ -4492,7 +4492,7 @@ print(eigenvectors)
 [[ 0.55158512 -0.83411861]
  [-0.83411861 -0.55158512]]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_8_1.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_8_1.png" alt="png"></p>
 <h5 id="変換射影">変換（射影）</h5>
 <p>元のデータを<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">m</span></span></span></span>次元に変換(射影)するときは行列<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi></mrow><annotation encoding="application/x-tex">W</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">W</span></span></span></span>を<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>W</mi><mo>=</mo><mo stretchy="false">[</mo><msub><mi mathvariant="bold-italic">w</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi mathvariant="bold-italic">w</mi><mn>2</mn></msub><mo separator="true">,</mo><mo>⋯</mo><mtext> </mtext><mo separator="true">,</mo><msub><mi mathvariant="bold-italic">w</mi><mi>m</mi></msub><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">W=[\boldsymbol{w}_{1}, \boldsymbol{w}_{2}, \cdots, \boldsymbol{w}_{m}]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">[</span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">]</span></span></span></span>とし、データ点<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold-italic">x</mi></mrow><annotation encoding="application/x-tex">\boldsymbol{x}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.44444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span></span></span></span>を<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold-italic">z</mi><mo>=</mo><msup><mi>W</mi><mi mathvariant="normal">T</mi></msup><mi mathvariant="bold-italic">x</mi></mrow><annotation encoding="application/x-tex">\boldsymbol{z} = W^{\mathrm{T}} \boldsymbol{x}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.44444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.04213em;">z</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8413309999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span></span></span></span>によって変換(射影)する。</p>
 <p>よって、データ<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>X</mi></mrow><annotation encoding="application/x-tex">X</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span></span>に対しては<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi><mo>=</mo><msup><mi>X</mi><mi mathvariant="normal">T</mi></msup><mi>W</mi></mrow><annotation encoding="application/x-tex">Z = X^{\mathrm{T}}W</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">Z</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8413309999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.13889em;">W</span></span></span></span>によって変換する。</p>
@@ -4511,7 +4511,7 @@ plt.ylim(<span class="hljs-number">-5</span>, <span class="hljs-number">5</span>
 </div></code></pre>
 <pre><code>(-5.0, 5.0)
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_12_1.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_12_1.png" alt="png"></p>
 <h5 id="逆変換">逆変換</h5>
 <p>射影されたデータ点<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="bold-italic">z</mi></mrow><annotation encoding="application/x-tex">\boldsymbol{z}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.44444em;vertical-align:0em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.04213em;">z</span></span></span></span></span></span>を元のデータ空間へ逆変換するときは<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi mathvariant="bold-italic">x</mi><mo>ˉ</mo></mover><mo>=</mo><mo stretchy="false">(</mo><msup><mi>W</mi><mi mathvariant="normal">T</mi></msup><msup><mo stretchy="false">)</mo><mrow><mo>−</mo><mn>1</mn></mrow></msup><mi mathvariant="bold-italic">z</mi><mo>=</mo><mi>W</mi><mi mathvariant="bold-italic">z</mi></mrow><annotation encoding="application/x-tex">\bar{\boldsymbol{x}} = (W^{\mathrm{T}})^{-1} \boldsymbol{z} = W \boldsymbol{z}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58122em;vertical-align:0em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.58122em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span></span></span><span style="top:-3.01344em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.25em;"><span class="mord">ˉ</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.0913309999999998em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">1</span></span></span></span></span></span></span></span></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.04213em;">z</span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.04213em;">z</span></span></span></span></span></span>によって変換する。</p>
 <p>よって、射影されたデータ<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Z</mi></mrow><annotation encoding="application/x-tex">Z</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">Z</span></span></span></span>に対しては<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>X</mi><mo>ˉ</mo></mover><mo>=</mo><mi>Z</mi><msup><mi>W</mi><mi mathvariant="normal">T</mi></msup></mrow><annotation encoding="application/x-tex">\bar{X} = ZW^{\mathrm{T}}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8201099999999999em;vertical-align:0em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8201099999999999em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07847em;">X</span></span></span><span style="top:-3.25233em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mord">ˉ</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8413309999999999em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">Z</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">W</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413309999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathrm mtight">T</span></span></span></span></span></span></span></span></span></span></span></span></span>によって変換する。</p>
@@ -4524,7 +4524,7 @@ plt.ylim(<span class="hljs-number">-5</span>, <span class="hljs-number">5</span>
 </div></code></pre>
 <pre><code>(-5.0, 5.0)
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_16_1.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_16_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.decomposition <span class="hljs-keyword">import</span> PCA
 pca = PCA(n_components=<span class="hljs-number">2</span>)
 pca.fit(X)
@@ -4555,12 +4555,12 @@ variance(分散): [1.90754124 0.55823894]
 </code></pre>
 <pre><code class="language-python"><div>plt_result(X, pca.components_[<span class="hljs-number">0</span>, :], pca.components_[<span class="hljs-number">1</span>, :])
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_19_0.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_19_0.png" alt="png"></p>
 <pre><code class="language-python"><div>plt.bar([n <span class="hljs-keyword">for</span> n <span class="hljs-keyword">in</span> range(<span class="hljs-number">1</span>, len(pca.explained_variance_ratio_)+<span class="hljs-number">1</span>)], pca.explained_variance_ratio_)
 </div></code></pre>
 <pre><code>&lt;BarContainer object of 2 artists&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_npoutput_20_1.png" alt="png"></p>
+<p><img src="./img/PCA_npoutput_20_1.png" alt="png"></p>
 <h4 id="第1主成分x軸と第2主成分y軸の寄与率を表示">第1主成分(x軸)と第2主成分(y軸)の寄与率を表示</h4>
 <h4 id="第1主成分x軸の分散の方が大きいことが分かる">第1主成分（x軸）の分散の方が大きいことが分かる</h4>
 <pre><code class="language-python"><div><span class="hljs-comment">#https://ohke.hateblo.jp/entry/2017/08/11/230000を参考に利用しています。</span>
@@ -5273,7 +5273,7 @@ plt.bar([n <span class="hljs-keyword">for</span> n <span class="hljs-keyword">in
 </div></code></pre>
 <pre><code>&lt;BarContainer object of 30 artists&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_skloutput_13_1.png" alt="png"></p>
+<p><img src="./img/PCA_skloutput_13_1.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># PCA</span>
 <span class="hljs-comment"># 次元数2まで圧縮</span>
 pca = PCA(n_components=<span class="hljs-number">2</span>)
@@ -5305,7 +5305,7 @@ explained variance ratio: [0.43315126 0.19586506]
 
 Text(0, 0.5, 'PC 2')
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\PCA_skloutput_14_2.png" alt="png"></p>
+<p><img src="./img/PCA_skloutput_14_2.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment"># 2次元に圧縮したうえで、ロジスティック回帰で学習</span>
 <span class="hljs-comment"># CV=層化抽出法を用いたK-分割交差検証法の分割数、もしくは交差検証法用のジェネレータ</span>
 <span class="hljs-comment"># この場合、10分割でK-分割交差検証法を適用</span>
@@ -5384,7 +5384,7 @@ plt.scatter(X_train[:, <span class="hljs-number">0</span>], X_train[:, <span cla
 </div></code></pre>
 <pre><code>&lt;matplotlib.collections.PathCollection at 0x2280684eeb0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\K%E8%BF%91%E5%82%8D%E6%B3%95output_4_1.png" alt="png"></p>
+<p><img src="./img/K%E8%BF%91%E5%82%8D%E6%B3%95output_4_1.png" alt="png"></p>
 <h5 id="k近傍法学習">K近傍法.学習</h5>
 <p>陽に訓練ステップはない</p>
 <h5 id="k近傍法予測">K近傍法.予測</h5>
@@ -5441,7 +5441,7 @@ plt_resut(X_train, ys_train, y_pred)
  [ 4.8989899  5.       ]
  [ 5.         5.       ]]
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\K%E8%BF%91%E5%82%8D%E6%B3%95output_10_1.png" alt="png"></p>
+<p><img src="./img/K%E8%BF%91%E5%82%8D%E6%B3%95output_10_1.png" alt="png"></p>
 <h2 id="ここから下はsklearnを用いたk近傍法">ここから下はsklearnを用いたk近傍法</h2>
 <pre><code class="language-python"><div>xx0, xx1 = np.meshgrid(np.linspace(<span class="hljs-number">-5</span>, <span class="hljs-number">5</span>, <span class="hljs-number">100</span>), np.linspace(<span class="hljs-number">-5</span>, <span class="hljs-number">5</span>, <span class="hljs-number">100</span>))
 xx = np.array([xx0, xx1]).reshape(<span class="hljs-number">2</span>, <span class="hljs-number">-1</span>).T
@@ -5450,7 +5450,7 @@ xx = np.array([xx0, xx1]).reshape(<span class="hljs-number">2</span>, <span clas
 knc = KNeighborsClassifier(n_neighbors=n_neighbors).fit(X_train, ys_train)
 plt_resut(X_train, ys_train, knc.predict(xx))
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\K%E8%BF%91%E5%82%8D%E6%B3%95output_13_0.png" alt="png"></p>
+<p><img src="./img/K%E8%BF%91%E5%82%8D%E6%B3%95output_13_0.png" alt="png"></p>
 <pre><code class="language-python"><div><span class="hljs-comment">### ワイン分類を最近棒法により推定</span>
 <span class="hljs-keyword">from</span> sklearn.datasets <span class="hljs-keyword">import</span> load_wine
 <span class="hljs-keyword">import</span> pandas <span class="hljs-keyword">as</span> pd
@@ -5651,7 +5651,7 @@ plt.scatter(X_train[:, <span class="hljs-number">0</span>], X_train[:, <span cla
 </div></code></pre>
 <pre><code>&lt;matplotlib.collections.PathCollection at 0x1f931e687f0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\output_4_1.png" alt="png"></p>
+<p><img src="./img/output_4_1.png" alt="png"></p>
 <h2 id="k平均法学習">K平均法.学習</h2>
 <p>k-meansアルゴリズムは以下のとおりである</p>
 <ol>
@@ -5720,7 +5720,7 @@ xx = np.array([xx0, xx1]).reshape(<span class="hljs-number">2</span>, <span clas
 
 plt_result(X_train, centers, xx)
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\output_11_0.png" alt="png"></p>
+<p><img src="./img/output_11_0.png" alt="png"></p>
 <h3 id="3つのグループのほぼ中央にクラスタが描かれている決定境界も明確">3つのグループのほぼ中央にクラスタ(×)が描かれている。決定境界も明確</h3>
 <h2 id="ここから下はsklearnを用いたk平均法を用いたクラスタリング">ここから下はsklearnを用いたK平均法を用いたクラスタリング</h2>
 <pre><code class="language-python"><div><span class="hljs-keyword">from</span> sklearn.cluster <span class="hljs-keyword">import</span> KMeans
@@ -5755,7 +5755,7 @@ array([[ 4.88549563, -5.15973532],
 <pre><code class="language-python"><div><span class="hljs-comment"># クラスタリング結果を表示</span>
 plt_result(X_train, kmeans.cluster_centers_, xx)
 </div></code></pre>
-<p><img src="file:///c:\Users\学\rabbit\output_16_0.png" alt="png"></p>
+<p><img src="./img/output_16_0.png" alt="png"></p>
 <h2 id="ワインデータをnumpy実装とsklearnのk-mean法それぞれでクラスタリングしてみる">ワインデータをnumpy実装とsklearnのk-mean法それぞれでクラスタリングしてみる</h2>
 <pre><code class="language-python"><div><span class="hljs-comment">### ワインデータをk-mean法によりクラスタリングしてみる</span>
 <span class="hljs-keyword">from</span> sklearn.datasets <span class="hljs-keyword">import</span> load_wine
@@ -6050,7 +6050,7 @@ plt.scatter(X_train[:, <span class="hljs-number">0</span>], X_train[:, <span cla
 </div></code></pre>
 <pre><code>&lt;matplotlib.collections.PathCollection at 0x140f3d890a0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_4_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_4_1.png" alt="png"></p>
 <h4 id="サポートベクタマシン学習">サポートベクタマシン.学習</h4>
 <p>特徴空間上で線形なモデル<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo stretchy="false">(</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">)</mo><mo>=</mo><mi mathvariant="bold-italic">w</mi><mi>ϕ</mi><mo stretchy="false">(</mo><mi mathvariant="bold-italic">x</mi><mo stretchy="false">)</mo><mo>+</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">y(\boldsymbol{x})= \boldsymbol{w} \phi(\boldsymbol{x}) + b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord boldsymbol" style="margin-right:0.02778em;">w</span></span></span><span class="mord mathdefault">ϕ</span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>を用い、その正負によって2値分類を行うことを考える。</p>
 <p>サポートベクトターマシンではマージンの最大化を行うが、それは結局以下の最適化問題を解くことと同じである。</p>
@@ -6173,7 +6173,7 @@ plt.quiver(<span class="hljs-number">0</span>, <span class="hljs-number">0</span
 </div></code></pre>
 <pre><code>&lt;matplotlib.quiver.Quiver at 0x140f3e751f0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_12_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_12_1.png" alt="png"></p>
 <h5 id="訓練データ生成-線形分離不可能">訓練データ生成② （線形分離不可能）</h5>
 <pre><code class="language-python"><div>factor = <span class="hljs-number">.2</span>
 n_samples = <span class="hljs-number">50</span>
@@ -6195,7 +6195,7 @@ y_train = y
 </div></code></pre>
 <pre><code>&lt;matplotlib.collections.PathCollection at 0x140f3ec27f0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_15_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_15_1.png" alt="png"></p>
 <h6 id="サポートベクターマシン学習">サポートベクターマシン学習②</h6>
 <p>元のデータ空間では線形分離は出来ないが、特徴空間上で線形分離することを考える。</p>
 <p>今回はカーネルとしてRBFカーネル（ガウシアンカーネル）を利用する。</p>
@@ -6267,7 +6267,7 @@ plt.contour(xx0, xx1, y_project.reshape(<span class="hljs-number">100</span>, <s
 </div></code></pre>
 <pre><code>&lt;matplotlib.contour.QuadContourSet at 0x140f3e75fa0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_22_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_22_1.png" alt="png"></p>
 <h4 id="ソフトマージンsvm">ソフトマージンSVM</h4>
 <h5 id="訓練データ生成重なりあり">訓練データ生成③（重なりあり）</h5>
 <pre><code class="language-python"><div>x0 = np.random.normal(size=<span class="hljs-number">50</span>).reshape(<span class="hljs-number">-1</span>, <span class="hljs-number">2</span>) - <span class="hljs-number">1.</span>
@@ -6279,7 +6279,7 @@ y_train = np.concatenate([np.zeros(<span class="hljs-number">25</span>), np.ones
 </div></code></pre>
 <pre><code>&lt;matplotlib.collections.PathCollection at 0x140f3f0a6d0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_26_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_26_1.png" alt="png"></p>
 <h6 id="サポートベクターマシン学習-1">サポートベクターマシン.学習③</h6>
 <p>分離不可能な場合は学習できないが、データ点がマージン内部に入ることや誤分類を許容することでその問題を回避する。</p>
 <p>スラック変数<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ξ</mi><mi>i</mi></msub><mo>≥</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\xi_{i} \ge 0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.04601em;">ξ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.04601em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≥</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>を導入し、マージン内部に入ったり誤分類された点に対しては、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ξ</mi><mi>i</mi></msub><mo>=</mo><mi mathvariant="normal">∣</mi><mn>1</mn><mo>−</mo><msub><mi>t</mi><mi>i</mi></msub><mi>y</mi><mo stretchy="false">(</mo><msub><mi mathvariant="bold-italic">x</mi><mi>i</mi></msub><mo stretchy="false">)</mo><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">\xi_{i} = | 1 - t_{i} y(\boldsymbol{x}_{i}) |</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.04601em;">ξ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.04601em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mopen">(</span><span class="mord"><span class="mord"><span class="mord"><span class="mord boldsymbol">x</span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mord">∣</span></span></span></span>とし、これらを許容する代わりに対して、ペナルティを与えるように、最適化問題を以下のように修正する。</p>
@@ -6377,7 +6377,7 @@ plt.contour(xx0, xx1, y_project.reshape(<span class="hljs-number">100</span>, <s
 </div></code></pre>
 <pre><code>&lt;matplotlib.contour.QuadContourSet at 0x140f3ffafa0&gt;
 </code></pre>
-<p><img src="file:///c:\Users\学\rabbit\SVMoutput_33_1.png" alt="png"></p>
+<p><img src="./img/SVMoutput_33_1.png" alt="png"></p>
 
     </body>
     </html>
